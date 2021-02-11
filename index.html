@@ -70,5 +70,28 @@
            </tr>
        </table>
 
+       <hr>
+       <h2><a href="https://en.wikipedia.org/wiki/Script.NET">Script.Net</a></h2>
+       <blockquote cites ="https://en.wikipedia.org/wiki/Script.NET">Script.Net">
+           Script.Net is a metaprogramming language that provides scripting functionality in Microsoft .NET applications, allowing runtime execution of custom functionality, similar to VBA in Microsoft Office applications.
+       <pre>
+            a=[17, 0, 5, 3,1, 2, 55];
+             for (i=0; i < a.Length; i=i+1)
+            for (j=i+1; j <  a.Length; j=j+1)
+            if (a[i] > a[j] )
+         { 
+          temp = a[i]; 
+          a[i] = a[j];
+          a[j] = temp;
+         }
+
+           s = 'Results:';
+           for (i=0; i < a.Length; i++)
+           s = s + ',' + a[i];
+
+          MessageBox.Show(s);
+          </pre>
       
 </body>
+
+</html>
